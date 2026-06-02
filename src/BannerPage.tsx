@@ -137,7 +137,7 @@ export default function BannerPage() {
               <div className="bg-zinc-900 text-white px-6 py-2 text-2xl font-black uppercase tracking-[0.4em] w-fit">
                 Telefon
               </div>
-              <p className="text-[140px] font-black tracking-tighter text-zinc-900 leading-none">
+              <p className="text-[115px] font-black tracking-tighter text-zinc-900 leading-none whitespace-nowrap">
                 +420 602 740 346
               </p>
             </div>
@@ -156,9 +156,9 @@ export default function BannerPage() {
               {/* Web */}
               <div className="flex flex-col gap-3 border-l-4 border-red-600 pl-10">
                 <div className="bg-red-600 text-white px-5 py-2 text-xl font-black uppercase tracking-widest w-fit">
-                  Webstránka
+                  Web / Website
                 </div>
-                <p className="text-[45px] font-black tracking-tight text-zinc-900 break-all leading-tight">
+                <p className="text-[38px] font-black tracking-tight text-zinc-900 whitespace-nowrap leading-tight">
                   {websiteUrl.replace('https://', '').replace('http://', '')}
                 </p>
               </div>
