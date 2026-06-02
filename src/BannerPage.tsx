@@ -1,7 +1,7 @@
 import { QRCodeSVG } from 'qrcode.react';
 import { Phone, Mail, Globe, Download, ArrowLeft, Printer } from 'lucide-react';
 import { useLayoutEffect, useRef, useState } from 'react';
-import html2canvas from 'html2canvas';
+import html2canvas from 'html2canvas-pro';
 import { jsPDF } from 'jspdf';
 
 export default function BannerPage() {
@@ -174,11 +174,6 @@ export default function BannerPage() {
                 </p>
               </div>
             </div>
-          </div>
-
-          <div className="fixed top-8 left-8 bg-zinc-800 text-white/60 px-4 py-2 rounded text-xs font-mono print:hidden border border-white/10 z-50"
-               style={{ transform: `scale(${1/scale})`, transformOrigin: 'top left' } as any}>
-            150 x 100 cm
           </div>
         </div>
       </div>
