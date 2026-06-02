@@ -18,6 +18,7 @@ const translations = {
     'nav.title': 'Pozemky',
     'nav.subtitle': 'Podmyče',
     'nav.phone_btn': '+420 602 740 346',
+    'nav.phone_href': 'tel:+420602740346',
     'nav.share_btn': 'Sdílet kontakt',
 
     'hero.badge': 'Prodej pozemků • Podmyče',
@@ -122,7 +123,8 @@ const translations = {
     'nav.contact': 'Kontakt',
     'nav.title': 'Grundstücke',
     'nav.subtitle': 'Podmyče',
-    'nav.phone_btn': '+420 602 740 346',
+    'nav.phone_btn': '+49 151 57323512',
+    'nav.phone_href': 'tel:+4915157323512',
     'nav.share_btn': 'Kontakt teilen',
 
     'hero.badge': 'Grundstücksverkauf • Podmyče',

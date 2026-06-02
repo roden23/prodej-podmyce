@@ -63,7 +63,7 @@ export default function Navbar() {
             </a>
           ))}
           <a 
-            href="tel:+420602740346"
+            href={t('nav.phone_href')}
             className={`px-6 py-2 border text-xs uppercase tracking-widest font-semibold transition-all ${
               isScrolled 
                 ? "border-brand-text text-brand-text hover:bg-brand-text hover:text-white" 
@@ -120,7 +120,7 @@ export default function Navbar() {
                 </a>
               ))}
               <a 
-                href="tel:+420602740346"
+                href={t('nav.phone_href')}
                 className="mt-4 bg-brand-text text-white p-4 text-center font-semibold text-sm uppercase tracking-widest"
               >
                 {t('nav.share_btn')}

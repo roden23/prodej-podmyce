@@ -39,7 +39,7 @@ export default function Contact() {
                 </a>
 
                 <a 
-                  href="tel:+420602740346" 
+                  href={t('nav.phone_href')} 
                   className="flex items-center gap-8 group w-fit"
                 >
                   <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center transition-colors group-hover:bg-white group-hover:text-brand-text">
@@ -47,7 +47,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[10px] uppercase font-bold opacity-30 tracking-widest mb-1">{t('contact.phone')}</p>
-                    <p className="text-2xl font-light">+420 602 740 346</p>
+                    <p className="text-2xl font-light">{t('nav.phone_btn')}</p>
                   </div>
                 </a>
               </div>

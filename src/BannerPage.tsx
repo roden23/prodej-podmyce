@@ -107,7 +107,7 @@ export default function BannerPage() {
           <div className="absolute bottom-0 right-0 w-64 h-64 bg-red-600 translate-x-32 translate-y-32 rotate-45" />
 
           {/* Header Section */}
-          <div className="relative z-10 flex justify-between items-start mb-16">
+          <div className="relative z-10 flex justify-between items-start mb-10">
             <div className="bg-red-600 text-white p-10 -ml-[80px] -mt-[80px] pr-24 pb-12 shadow-xl">
               <h1 className="text-[120px] font-black leading-none tracking-tighter uppercase italic">
                 NA PRODEJ
@@ -130,19 +130,30 @@ export default function BannerPage() {
           </div>
 
           {/* Contact Information */}
-          <div className="relative z-10 flex flex-col gap-10 mt-2">
+          <div className="relative z-10 flex flex-col gap-8 mt-2">
             
             {/* Phone */}
             <div className="flex flex-col gap-3">
               <div className="bg-zinc-900 text-white px-6 py-2 text-2xl font-black uppercase tracking-[0.4em] w-fit">
-                Telefon
+                Telefon / Contact
               </div>
-              <p className="text-[115px] font-black tracking-tighter text-zinc-900 leading-none whitespace-nowrap">
-                +420 602 740 346
-              </p>
+              <div className="flex flex-col gap-3 mt-1">
+                <div className="flex items-center gap-8">
+                  <span className="text-3xl font-black bg-zinc-900 text-white px-5 py-2 uppercase tracking-wider w-[120px] text-center">CZ</span>
+                  <p className="text-[85px] font-black tracking-tighter text-zinc-900 leading-none whitespace-nowrap">
+                    +420 602 740 346
+                  </p>
+                </div>
+                <div className="flex items-center gap-8">
+                  <span className="text-3xl font-black bg-red-600 text-white px-5 py-2 uppercase tracking-wider w-[120px] text-center">DE</span>
+                  <p className="text-[85px] font-black tracking-tighter text-zinc-900 leading-none whitespace-nowrap">
+                    +49 151 57323512
+                  </p>
+                </div>
+              </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-16 mt-6">
+            <div className="grid grid-cols-2 gap-16 mt-2">
               {/* Email */}
               <div className="flex flex-col gap-3">
                 <div className="bg-zinc-900 text-white px-5 py-2 text-xl font-black uppercase tracking-widest w-fit">
